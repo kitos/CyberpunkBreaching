@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cyberpunk breaching</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+      }
+
+      .error {
+        display: none;
+        border: 2px solid red;
+        padding: 8px;
+        margin: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <canvas id="canvas"></canvas>
+
+      <div style="display: flex">
+        <canvas id="contourCanvas"></canvas>
+        <canvas id="matrixCanvas"></canvas>
+      </div>
+
+      <div id="matrix"></div>
+      <code class="error"></code>
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
